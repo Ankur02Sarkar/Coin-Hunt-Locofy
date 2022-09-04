@@ -1,0 +1,16 @@
+/* @media screen and (min-width: 992px) and (max-width: 1110px) { */
+@media screen and (max-width: 1110px) {
+    .window {
+        display: flex;
+        justify-content: space-around;
+        align-content: center;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .window {
+        flex-direction: column;
+    }
+}

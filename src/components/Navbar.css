@@ -1,0 +1,28 @@
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: fixed;
+    z-index: 1;
+    width: 100%;
+    margin-top: -7%;
+    background-color: #6900ff; */
+}
+
+.icon {
+    font-size: 2rem;
+    color: #6900ff;
+}
+
+.purple {
+    color: #6900ff;
+}
+
+.logo {
+    margin-top: 1rem;
+    margin-right: 0px;
+}
+
+.logos {
+    display: flex;
+}

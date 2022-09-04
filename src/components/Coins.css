@@ -1,0 +1,97 @@
+.container {
+    max-width: 60%;
+    margin: auto;
+}
+.wrap{
+    box-shadow: 0 5px 15px rgba(0,0,0,.5);
+    border-radius: 23px;
+    backdrop-filter: blur(2px);
+}
+.wrap2{
+    padding: 1px;
+}
+.heading {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6900ff;
+    box-shadow: 0px 0px 12px #18191b;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+    font-weight: 700;
+}
+
+.coin-name {
+    margin-left: -4rem;
+}
+
+.coin-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #26272b;
+    box-shadow: 0px 0px 12px #09a9f7;
+    border-radius: 8px;
+    margin: 2rem 1rem;
+    padding: .7rem 1rem;
+}
+
+.coin-row:hover {
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+    cursor: pointer;
+}
+
+img {
+    height: 40px;
+    margin-right: 8px;
+    width: auto;
+}
+
+.img-symbol {
+    display: flex;
+    align-items: center;
+}
+
+/********************************************* Media Queries ******************************************/
+
+/* Mobile Devices */
+@media screen and (max-width: 768px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Small Tablets */
+@media screen and (min-width: 768px) {
+    
+}
+
+/* Tablets */
+@media screen and (min-width: 992px) {
+    .hide-mobile {
+        display: none;
+    }
+}
+
+/* Desktop */
+@media screen and (max-width: 1110px) {
+    .part5, .volume{
+        display: none;
+    }
+    .container{
+        max-width: 90%;
+    }
+}
+@media screen and (max-width: 800px) {
+    .part6, .mktCap{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .part4, .price24{
+        display: none;
+    }
+}

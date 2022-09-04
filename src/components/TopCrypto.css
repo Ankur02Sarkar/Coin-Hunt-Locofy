@@ -1,0 +1,51 @@
+.topCrypto {
+
+    width: 17%;
+    padding: 10px;
+    opacity: 2px;
+    float: left;
+    margin: 10% 0px auto 2%;
+    position: fixed;
+    text-align: center;
+    box-shadow: 0 1px 12px #09a9f7;
+    border-radius: 23px;
+
+
+}
+
+.btcImg {
+    width: 100px;
+    height: 100px;
+
+}
+
+.font {
+    font-size: 1.2rem;
+    margin: 10px;
+}
+
+.head {
+    font-size: 1.7rem;
+}
+
+/********************************************* Media Queries ******************************************/
+
+/* @media screen and (min-width: 992px) and (max-width: 1110px) { */
+@media screen and (max-width: 1110px) {
+    .topCrypto {
+        width: 40%;
+        padding: 10px;
+        opacity: 2px;
+        margin: 10px;
+        text-align: center;
+        position: relative;
+        box-shadow: 0 1px 12px #09a9f7;
+        border-radius: 23px;
+    }
+}
+
+@media screen and (max-width: 610px) {
+    .topCrypto {
+        width: 70%;
+    }
+}
